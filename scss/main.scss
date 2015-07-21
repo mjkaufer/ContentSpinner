@@ -1,0 +1,67 @@
+$size: 320px;
+$fill: #bdc3c7;
+
+body{
+  margin: 0;
+  font-family: arial;
+}
+
+#container-contents{
+  position: absolute;
+}
+
+body{
+  background-color: $fill;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+}
+
+a,a:link,a:visited{
+  color: #2980b9;
+  text-decoration: none;
+  transition: 0.125s all  ;
+}
+
+a:active,a:hover{
+  color: #fff;
+}
+
+.square{
+  width: $size;
+  height: $size;
+  float: left;
+  transform-origin: 50% 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.square > h1{
+  text-align: center;
+  margin-top: 40%;
+  color: white;
+}
+
+.bottom{
+  transform: rotate(180deg);
+}
+
+#container{
+  position: relative;
+  width: $size;
+  height: $size;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  transform: rotate(0deg);
+  background-color: #ecf0f1;
+  border: solid $fill 0px;
+  border-radius: 1em;
+}
+
+#main{
+  margin: 1em auto;
+  position: relative;
+  width: $size;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "contentspinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjkaufer/ContentSpinner.git"
+  },
+  "author": "Matthew Kaufer (@mjkaufer)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjkaufer/ContentSpinner/issues"
+  },
+  "homepage": "https://github.com/mjkaufer/ContentSpinner#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
